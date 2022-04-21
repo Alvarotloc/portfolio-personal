@@ -104,14 +104,14 @@ body {
 #modal-close {
   opacity: 0;
 }
-#content{
+#content {
   height: 100vh;
   margin-left: 47rem;
   padding-top: 13vh;
   overflow: scroll;
   padding-right: 4rem;
 }
-.profile{
+.profile {
   background-image: url(../imgs/Profile.webp);
   background-repeat: no-repeat;
   background-size: contain;
@@ -119,72 +119,73 @@ body {
   min-width: 25rem;
   border-radius: 50%;
 }
-.aboutme-info{
+.aboutme-info {
   display: flex;
   align-items: center;
   margin-top: 10rem;
 }
-#info-general{
+#info-general {
   max-width: 50rem;
   margin-right: 10rem;
 }
-p{
+p {
   margin: 3rem 0;
   font-size: 2rem;
 }
-h1{
+h1 {
   font-size: 4rem;
   color: var(--fondo-oscuro);
-  letter-spacing: .3rem;
+  letter-spacing: 0.3rem;
 }
-#info-general a{
+#info-general a {
   font-size: 1.8rem;
   color: rgb(96, 4, 218);
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   text-decoration: none;
 }
-#info-general a:hover{
-  text-decoration:underline;
+#info-general a:hover {
+  text-decoration: underline;
 }
-#info-general p span{
+#info-general p span {
   position: relative;
 }
-#info-general p span::after{
-  content: '';
+#info-general p span::after {
+  content: "";
   position: absolute;
   left: 0;
-  bottom: -.1rem;
+  bottom: -0.1rem;
   z-index: -1;
   height: 0.7rem;
   width: 100%;
   background: linear-gradient(to right, rgb(0, 168, 160), rgb(0, 223, 211));
 }
 
-#contact fieldset{
+#contact fieldset {
   border: none;
 }
-#contact form{
+#contact form {
   margin-top: 5rem;
 }
-.field{
+.field {
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
 }
-label{
+label {
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 1rem;
 }
-.field input, .field textarea{
+.field input,
+.field textarea {
   padding: 1.5rem 0 1.5rem 1rem;
-  border: .2rem solid rgb(0, 168, 160);
+  border: 0.2rem solid rgb(0, 168, 160);
   border-radius: 1rem;
 }
-.field textarea{
+.field textarea {
   height: 10rem;
 }
-input[type='submit']{
+input[type="submit"] {
   width: 100%;
   border-radius: 1rem;
   padding: 1.5rem 0;
@@ -193,32 +194,92 @@ input[type='submit']{
   color: var(--fondo-gris);
   cursor: pointer;
 }
-#error, #success{
+#error,
+#success {
   text-align: center;
   background-color: rgb(243, 52, 52);
-  border: .4rem solid rgb(175, 52, 52);
+  border: 0.4rem solid rgb(175, 52, 52);
   padding: 1.8rem 0;
   text-transform: uppercase;
   color: var(--fondo-gris);
 }
-#success{
+#success {
   background-color: rgb(52, 151, 243);
-  border: .4rem solid rgb(52, 85, 175);
+  border: 0.4rem solid rgb(52, 85, 175);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#options {
+  text-align: center;
+  padding: 1rem 5rem;
+  margin-left: 4rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 0.8rem;
+  border: 1px solid var(--fondo-oscuro);
+}
+#cards {
+  margin-top: 6rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  justify-items: center;
+  gap: 2rem;
+}
+.card {
+  max-height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  overflow: hidden;
+  width: 31rem;
+  border-radius: 1rem;
+  background-color: white;
+}
+.card-content {
+  padding: 2rem 1rem 3rem 2rem;
+  width: 100%;
+}
+.card-content * {
+  margin-bottom: 1rem;
+}
+.card-content h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--fondo-oscuro);
+}
+.card-content p {
+  font-size: 1.3rem;
+  color: #555;
+  margin: 0 0 2rem 0;
+}
+.tech {
+  display: inline;
+  background-color: #727272;
+  color: var(--fondo-gris);
+  font-size: 1.3rem;
+  font-weight: 300;
+  padding: 0.4rem 1rem;
+  border-radius: 1rem;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  row-gap: 0.1rem;
+  margin-bottom: 2rem;
+}
+.btn-purple,
+.btn-blue {
+  background: linear-gradient(to right, rgb(150, 0, 150), rgb(216, 0, 216));
+  color: var(--fondo-gris);
+  padding: 1rem 3rem;
+  text-decoration: none;
+  border-radius: 1rem;
+  margin-right: 3rem;
+}
+.img-top-card {
+  height: 100%;
+  width: 100%;
+}
 @media (max-width: 990px) {
   .side-bar {
     left: -45rem;
@@ -242,18 +303,18 @@ input[type='submit']{
     top: 3rem;
     left: 3rem;
   }
-  #content{
+  #content {
     margin-left: 0;
     padding-left: 4rem;
   }
-  .aboutme-info{
+  .aboutme-info {
     flex-direction: column;
     text-align: center;
   }
-  #info-general{
+  #info-general {
     margin-right: 0;
   }
-  .profile{
+  .profile {
     margin-top: 3rem;
   }
 }

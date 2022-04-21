@@ -1,0 +1,114 @@
+{
+    "projects" : [
+        {
+            "image" : "src/imgs/garden.webp",
+            "name" : "Jardin de Bambu",
+            "description" : "A project made for a local restaurant called Jardin de Bambú made entirely with react and typescript",
+            "usedSkills" : ["React","TypeScript","Vite","HTML","CSS"],
+            "repo" : "https://github.com/Alvarotloc/jardin-de-bambu",
+            "url" : "https://garden-of-bambu.netlify.app/",
+            "tech" : "react",
+            "id" : 1
+        },
+        {
+            "image" : "src/imgs/clients.webp",
+            "name" : "Clients Manager",
+            "description" : "A project made with react, react-router, tailwindcss and formik for controlling your clients",
+            "usedSkills" : ["React","TailwindCss","TypeScript","Vite","HTML","CSS","JSON-Server"],
+            "repo" : "https://github.com/Alvarotloc/clients-manager",
+            "url" : "https://clients-manager-crm.netlify.app/",
+            "tech" : "tailwindcss",
+            "id" : 2
+        },
+        {
+            "image" : "src/imgs/vet.webp",
+            "name" : "Veterinary React",
+            "description" : "A project made with react and tailwindcss for a veterinary practice. It is made entirely with TypeScript. Deployed in Netlify.",
+            "usedSkills" : ["React","TailwindCss","TypeScript","Vite","HTML","CSS"],
+            "repo" : "https://github.com/Alvarotloc/Veterinaria_React",
+            "url" : "https://veterinaria-react-tailwind.netlify.app/",
+            "tech" : "tailwindcss",
+            "id" : 3
+        },
+        {
+            "image" : "src/imgs/crypto.webp",
+            "name" : "Cryptos Currency",
+            "description" : "Application to see the price of cryptocurrencies in real time, made with React and styled-components and consumption of an api",
+            "usedSkills" : ["React","Styled-Components","HTML","CSS","POO","API"],
+            "repo" : "https://github.com/Alvarotloc/Cotizador-Criptomonedas",
+            "url" : "https://cryptos-currency.netlify.app/",
+            "tech" : "react",
+            "id" : 4
+        },
+        {
+            "image" : "src/imgs/rickmorty.webp",
+            "name" : "Rick and Morty Guide",
+            "description" : "A project made with javascript vanilla and the rick and morty API. Deployed in Heroku.",
+            "usedSkills" : ["JavaScript","HTML","CSS","POO","API"],
+            "repo" : "https://github.com/Alvarotloc/rick-and-morty-vanilla",
+            "url" : "https://api-rick-and-mort.herokuapp.com/",
+            "tech" : "vanilla",
+            "id" : 5
+        },
+        {
+            "image" : "src/imgs/gif.webp",
+            "name" : "Gif Expert App",
+            "description" : "A project based on the search for gifs from the famous Giphy API, made entirely with react and typescript",
+            "usedSkills" : ["React","TypeScript","Vite","HTML","CSS","Animate Css"],
+            "repo" : "https://github.com/Alvarotloc/gif-expert-app-react ",
+            "url" : "https://what-gif-u-want.netlify.app/",
+            "tech" : "react",
+            "id" : 6
+        },
+        {
+            "image" : "src/imgs/indecision.webp",
+            "name" : "Indecision App",
+            "description" : "A project made entirely in vue js to ask questions to an api and receive random answers. A fun challenge deployed in Netlify",
+            "usedSkills" : ["VueJS","HTML","CSS","POO","API"],
+            "repo" : "https://github.com/Alvarotloc/Indecision-vue",
+            "url" : "https://indecision-ask-vue.netlify.app/",
+            "tech" : "vue",
+            "id" : 7
+        },
+        {
+            "image" : "src/imgs/aldemy.webp",
+            "name" : "Aldemy Courses",
+            "description" : "A project made for the FreeCodeCamp course on responsive web design, made only in html and css. Deployed in Netlify",
+            "usedSkills" : ["HTML","CSS"],
+            "repo" : "https://github.com/Alvarotloc/Aldemy-Landing-Page",
+            "url" : "https://sell-courses-aldemy.netlify.app/",
+            "tech" : "basic",
+            "id" : 8
+        },
+        {
+            "image" : "src/imgs/freelancer.webp",
+            "name" : "Alvaro Freelancer",
+            "description" : "A small project to offer freelance services, made only with html and css following mobile first and responsive design techniques.",
+            "usedSkills" : ["HTML","CSS"],
+            "repo" : "https://github.com/Alvarotloc/freelancer-alvaro",
+            "url" : "https://freelancer-alvaro.netlify.app/",
+            "tech" : "basic",
+            "id" : 9
+        },
+        {
+            "image" : "src/imgs/bio.webp",
+            "name" : "Iker Casillas Bio",
+            "description" : "A project made for the FreeCodeCamp course, it consist in a short biography of Iker Casillas made only with HTML and CSS",
+            "usedSkills" : ["HTML","CSS"],
+            "repo" : "https://github.com/Alvarotloc/Bio-Iker-Casillas",
+            "url" : "https://casillas-biography.netlify.app/",
+            "tech" : "basic",
+            "id" : 10
+        },
+        {
+            "image" : "src/imgs/marvel.webp",
+            "name" : "Marvel`s Form",
+            "description" : "A project made for the FreeCodeCamp course, it consist in a little form about Marvel`s movies and comics, only with html and css",
+            "usedSkills" : ["HTML","CSS"],
+            "repo" : "https://github.com/Alvarotloc/Marvel-form",
+            "url" : "https://marvels-fan-form.netlify.app/",
+            "tech" : "basic",
+            "id" : 11
+        }
+    ]
+}
