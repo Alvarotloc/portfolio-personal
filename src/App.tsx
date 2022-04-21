@@ -1,6 +1,14 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from './layout/Layout';
 const App = ():JSX.Element => {
   return (
-    <div>App</div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index/>
+      </Route>
+    </Routes>
+  </BrowserRouter>
   )
 }
 
