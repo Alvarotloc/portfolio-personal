@@ -7,6 +7,7 @@
   padding: 0;
   appearance: none;
   font-family: "Rubik", sans-serif;
+  appearance: none;
 }
 html {
   font-size: 62.5%;
@@ -22,9 +23,6 @@ body {
   /* Esto lo que hace es que 1rem equivalga a 10px */
   background-color: var(--fondo-gris);
 }
-/* #layout {
-  display: flex;
-} */
 .side-bar {
   background-color: var(--fondo-oscuro);
   height: 100vh;
@@ -161,6 +159,66 @@ h1{
   width: 100%;
   background: linear-gradient(to right, rgb(0, 168, 160), rgb(0, 223, 211));
 }
+
+#contact fieldset{
+  border: none;
+}
+#contact form{
+  margin-top: 5rem;
+}
+.field{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+label{
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.field input, .field textarea{
+  padding: 1.5rem 0 1.5rem 1rem;
+  border: .2rem solid rgb(0, 168, 160);
+  border-radius: 1rem;
+}
+.field textarea{
+  height: 10rem;
+}
+input[type='submit']{
+  width: 100%;
+  border-radius: 1rem;
+  padding: 1.5rem 0;
+  border: none;
+  background-color: var(--fondo-oscuro);
+  color: var(--fondo-gris);
+  cursor: pointer;
+}
+#error, #success{
+  text-align: center;
+  background-color: rgb(243, 52, 52);
+  border: .4rem solid rgb(175, 52, 52);
+  padding: 1.8rem 0;
+  text-transform: uppercase;
+  color: var(--fondo-gris);
+}
+#success{
+  background-color: rgb(52, 151, 243);
+  border: .4rem solid rgb(52, 85, 175);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 990px) {
   .side-bar {
     left: -45rem;
