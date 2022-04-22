@@ -27,7 +27,9 @@ const Skills = ():JSX.Element => {
         const response = await fetch(url);
         const result = await response.json();
         setSkills(result);
-        setCharging(false);
+        setTimeout(() => {
+          setCharging(false);
+        }, 1000);
       } catch (error) {
         console.log(error);
       }
