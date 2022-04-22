@@ -32,6 +32,7 @@ const Layout = (): JSX.Element => {
           <Link
             to="/"
             className={pathname === "/" ? "nav-link active" : "nav-link"}
+            onClick={() => setModal(false)}
           >
             About Me
           </Link>
@@ -40,18 +41,21 @@ const Layout = (): JSX.Element => {
             className={
               pathname === "/projects" ? "nav-link active" : "nav-link"
             }
+            onClick={() => setModal(false)}
           >
             Projects
           </Link>
           <Link
             to="/skills"
             className={pathname === "/skills" ? "nav-link active" : "nav-link"}
+            onClick={() => setModal(false)}
           >
             Skills
           </Link>
           <Link
             to="/contact"
             className={pathname === "/contact" ? "nav-link active" : "nav-link"}
+            onClick={() => setModal(false)}
           >
             Contact
           </Link>
