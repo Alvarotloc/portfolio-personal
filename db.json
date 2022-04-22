@@ -1,7 +1,7 @@
 {
     "projects" : [
         {
-            "image" : "./src/imgs/clients.webp",
+            "image" : "clients",
             "name" : "Clients Manager",
             "description" : "A project made with react, react-router, tailwindcss and formik for controlling your clients",
             "usedSkills" : ["React","TailwindCss","TypeScript","Vite","HTML","CSS","JSON-Server"],
@@ -11,7 +11,7 @@
             "id" : 1
         },
         {
-            "image" : "/src/imgs/vet.webp",
+            "image" : "vet",
             "name" : "Veterinary React",
             "description" : "A project made with react and tailwindcss for a veterinary practice. It is made entirely with TypeScript. Deployed in Netlify.",
             "usedSkills" : ["React","TailwindCss","TypeScript","Vite","HTML","CSS"],
@@ -21,7 +21,7 @@
             "id" : 2
         },
         {
-            "image" : "/src/imgs/crypto.webp",
+            "image" : "crypto",
             "name" : "Cryptos Currency",
             "description" : "Application to see the price of cryptocurrencies in real time, made with React and styled-components and consumption of an api",
             "usedSkills" : ["React","Styled-Components","HTML","CSS","POO","API"],
@@ -31,7 +31,7 @@
             "id" : 3
         },
         {
-            "image" : "/src/imgs/portafolio.webp",
+            "image" : "portafolio",
             "name" : "Portfolio",
             "description" : "This portfolio has been built in react, using react-router. It has been built entirely in TypeScript and following best practices",
             "usedSkills" : ["React","HTML","CSS","POO","JSON-Server"],
@@ -41,7 +41,7 @@
             "id" : 4
         },
         {
-            "image" : "/src/imgs/garden.webp",
+            "image" : "garden",
             "name" : "Jardin de Bambu",
             "description" : "A project made for a local restaurant called Jardin de Bambú made entirely with react and typescript",
             "usedSkills" : ["React","TypeScript","Vite","HTML","CSS"],
@@ -51,7 +51,7 @@
             "id" : 5
         },
         {
-            "image" : "/src/imgs/rickmorty.webp",
+            "image" : "rickmorty",
             "name" : "Rick and Morty Guide",
             "description" : "A project made with javascript vanilla and the rick and morty API. Deployed in Heroku.",
             "usedSkills" : ["JavaScript","HTML","CSS","POO","API"],
@@ -61,7 +61,7 @@
             "id" : 6
         },
         {
-            "image" : "/src/imgs/gif.webp",
+            "image" : "gif",
             "name" : "Gif Expert App",
             "description" : "A project based on the search for gifs from the famous Giphy API, made entirely with react and typescript",
             "usedSkills" : ["React","TypeScript","Vite","HTML","CSS","Animate Css"],
@@ -71,7 +71,7 @@
             "id" : 7
         },
         {
-            "image" : "/src/imgs/indecision.webp",
+            "image" : "indecision",
             "name" : "Indecision App",
             "description" : "A project made entirely in vue js to ask questions to an api and receive random answers. A fun challenge deployed in Netlify",
             "usedSkills" : ["VueJS","HTML","CSS","POO","API"],
@@ -81,7 +81,7 @@
             "id" : 8
         },
         {
-            "image" : "/src/imgs/aldemy.webp",
+            "image" : "aldemy",
             "name" : "Aldemy Courses",
             "description" : "A project made for the FreeCodeCamp course on responsive web design, made only in html and css. Deployed in Netlify",
             "usedSkills" : ["HTML","CSS"],
@@ -91,7 +91,7 @@
             "id" : 9
         },
         {
-            "image" : "/src/imgs/freelancer.webp",
+            "image" : "freelancer",
             "name" : "Alvaro Freelancer",
             "description" : "A small project to offer freelance services, made only with html and css following mobile first and responsive design techniques.",
             "usedSkills" : ["HTML","CSS"],
@@ -101,7 +101,7 @@
             "id" : 10
         },
         {
-            "image" : "/src/imgs/bio.webp",
+            "image" : "bio",
             "name" : "Iker Casillas Bio",
             "description" : "A project made for the FreeCodeCamp course, it consist in a short biography of Iker Casillas made only with HTML and CSS",
             "usedSkills" : ["HTML","CSS"],
@@ -111,7 +111,7 @@
             "id" : 11
         },
         {
-            "image" : "/src/imgs/marvel.webp",
+            "image" : "marvel",
             "name" : "Marvel`s Form",
             "description" : "A project made for the FreeCodeCamp course, it consist in a little form about Marvel`s movies and comics, only with html and css",
             "usedSkills" : ["HTML","CSS"],
