@@ -1,16 +1,6 @@
 {
     "projects" : [
         {
-            "image" : "src/imgs/garden.webp",
-            "name" : "Jardin de Bambu",
-            "description" : "A project made for a local restaurant called Jardin de Bambú made entirely with react and typescript",
-            "usedSkills" : ["React","TypeScript","Vite","HTML","CSS"],
-            "repo" : "https://github.com/Alvarotloc/jardin-de-bambu",
-            "url" : "https://garden-of-bambu.netlify.app/",
-            "tech" : "react",
-            "id" : 1
-        },
-        {
             "image" : "src/imgs/clients.webp",
             "name" : "Clients Manager",
             "description" : "A project made with react, react-router, tailwindcss and formik for controlling your clients",
@@ -18,7 +8,7 @@
             "repo" : "https://github.com/Alvarotloc/clients-manager",
             "url" : "https://clients-manager-crm.netlify.app/",
             "tech" : "tailwindcss",
-            "id" : 2
+            "id" : 1
         },
         {
             "image" : "src/imgs/vet.webp",
@@ -28,7 +18,7 @@
             "repo" : "https://github.com/Alvarotloc/Veterinaria_React",
             "url" : "https://veterinaria-react-tailwind.netlify.app/",
             "tech" : "tailwindcss",
-            "id" : 3
+            "id" : 2
         },
         {
             "image" : "src/imgs/crypto.webp",
@@ -38,7 +28,27 @@
             "repo" : "https://github.com/Alvarotloc/Cotizador-Criptomonedas",
             "url" : "https://cryptos-currency.netlify.app/",
             "tech" : "react",
+            "id" : 3
+        },
+        {
+            "image" : "src/imgs/portafolio.webp",
+            "name" : "Portfolio",
+            "description" : "This portfolio has been built in react, using react-router. It has been built entirely in TypeScript and following best practices",
+            "usedSkills" : ["React","HTML","CSS","POO","JSON-Server"],
+            "repo" : "https://github.com/Alvarotloc/Cotizador-Criptomonedas",
+            "url" : "/",
+            "tech" : "react",
             "id" : 4
+        },
+        {
+            "image" : "src/imgs/garden.webp",
+            "name" : "Jardin de Bambu",
+            "description" : "A project made for a local restaurant called Jardin de Bambú made entirely with react and typescript",
+            "usedSkills" : ["React","TypeScript","Vite","HTML","CSS"],
+            "repo" : "https://github.com/Alvarotloc/jardin-de-bambu",
+            "url" : "https://garden-of-bambu.netlify.app/",
+            "tech" : "react",
+            "id" : 5
         },
         {
             "image" : "src/imgs/rickmorty.webp",
@@ -48,7 +58,7 @@
             "repo" : "https://github.com/Alvarotloc/rick-and-morty-vanilla",
             "url" : "https://api-rick-and-mort.herokuapp.com/",
             "tech" : "vanilla",
-            "id" : 5
+            "id" : 6
         },
         {
             "image" : "src/imgs/gif.webp",
@@ -58,7 +68,7 @@
             "repo" : "https://github.com/Alvarotloc/gif-expert-app-react ",
             "url" : "https://what-gif-u-want.netlify.app/",
             "tech" : "react",
-            "id" : 6
+            "id" : 7
         },
         {
             "image" : "src/imgs/indecision.webp",
@@ -68,7 +78,7 @@
             "repo" : "https://github.com/Alvarotloc/Indecision-vue",
             "url" : "https://indecision-ask-vue.netlify.app/",
             "tech" : "vue",
-            "id" : 7
+            "id" : 8
         },
         {
             "image" : "src/imgs/aldemy.webp",
@@ -78,7 +88,7 @@
             "repo" : "https://github.com/Alvarotloc/Aldemy-Landing-Page",
             "url" : "https://sell-courses-aldemy.netlify.app/",
             "tech" : "basic",
-            "id" : 8
+            "id" : 9
         },
         {
             "image" : "src/imgs/freelancer.webp",
@@ -88,7 +98,7 @@
             "repo" : "https://github.com/Alvarotloc/freelancer-alvaro",
             "url" : "https://freelancer-alvaro.netlify.app/",
             "tech" : "basic",
-            "id" : 9
+            "id" : 10
         },
         {
             "image" : "src/imgs/bio.webp",
@@ -98,7 +108,7 @@
             "repo" : "https://github.com/Alvarotloc/Bio-Iker-Casillas",
             "url" : "https://casillas-biography.netlify.app/",
             "tech" : "basic",
-            "id" : 10
+            "id" : 11
         },
         {
             "image" : "src/imgs/marvel.webp",
@@ -108,7 +118,74 @@
             "repo" : "https://github.com/Alvarotloc/Marvel-form",
             "url" : "https://marvels-fan-form.netlify.app/",
             "tech" : "basic",
-            "id" : 11
+            "id" : 12
+        }
+    ],
+    "skills" : [
+        {
+            "image" : "src/imgs/react.webp",
+            "name" : "React",
+            "experience" : "As a front-end developer, I have specialized in using React as the main library in my projects. I work it normally based on TypeScript"
+        },
+        {
+            "image" : "src/imgs/typescript.webp",
+            "name" : "TypeScript",
+            "experience" : "To work neatly and cleanly, as well as getting used to working with strongly typed languages, I use TypeScript in most of my projects"
+        },
+        {
+            "image" : "src/imgs/node.webp",
+            "name" : "Node JS",
+            "experience" : "To work on the server side I use node js, a development environment where I can make the most of my JavaScript knowledge"
+        },
+        {
+            "image" : "src/imgs/express.webp",
+            "name" : "Express JS",
+            "experience" : "To accompany my knowledge of Node, I use Express, a framework used to build back-end"
+        },
+        {
+            "image" : "src/imgs/javascript.webp",
+            "name" : "JavaScript",
+            "experience" : "It is the language that I use the most, I started to learn with it and now practically all my projects are with JavaScript"
+        },
+        {
+            "image" : "src/imgs/tailwind.webp",
+            "name" : "Tailwind Css",
+            "experience" : "As a css framework, I use it in many of my projects because of its ease of use and versatility"
+        },
+        {
+            "image" : "src/imgs/mysql.webp",
+            "name" : "MySQL",
+            "experience" : "It is the relational database manager that I use the most and with which I have the most experience"
+        },
+        {
+            "image" : "src/imgs/mongodb.webp",
+            "name" : "Mongo DB",
+            "experience" : "It is the NON-relational database manager that I use the most and with which I have the most experience"
+        },
+        {
+            "image" : "src/imgs/html.webp",
+            "name" : "HTML5",
+            "experience" : "Label language, I master it to perfection and I am an expert in layout with it"
+        },
+        {
+            "image" : "src/imgs/css.webp",
+            "name" : "CSS3",
+            "experience" : "Style language, I master it very well, I have even entered the top 100 designers on the CssBattle page"
+        },
+        {
+            "image" : "src/imgs/nextjs.webp",
+            "name" : "NextJS",
+            "experience" : "A framework based on react and using express behind the scenes, I am currently learning it but having the bases of two technologies that I handle will not take long to learn it"
+        },
+        {
+            "image" : "src/imgs/vue.webp",
+            "name" : "VueJS",
+            "experience" : "A javascript framework that I have some knowledge of but haven't focused on it primarily, like I have with React"
+        },
+        {
+            "image" : "src/imgs/bootstrap.webp",
+            "name" : "Bootstrap",
+            "experience" : "A framework based on css, I am currently learning it but having the bases of two technologies that I handle will not take long to learn it"
         }
     ]
 }

@@ -216,12 +216,17 @@ input[type="submit"] {
   border-radius: 0.8rem;
   border: 1px solid var(--fondo-oscuro);
 }
-#cards {
+#cards , #all-skills{
   margin-top: 6rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   justify-items: center;
   gap: 2rem;
+  row-gap: 5rem;
+}
+#all-skills{
+  row-gap: 7rem;
+  column-gap: 0;
 }
 .card {
   max-height: 50rem;
@@ -279,6 +284,32 @@ input[type="submit"] {
 .img-top-card {
   height: 100%;
   width: 100%;
+}
+.div-skill{
+  display:flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items:center;
+  width: 30rem;
+  min-height: 37rem;
+}
+.skill-content{
+  text-align: center;
+  padding: 0 2rem 1rem 2rem;
+}
+.skill-image{
+  max-width: 100%;
+  min-height: 40%;
+  max-height: 100%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.skill-image:first-child{
+  width: auto;
+}
+.div-skill p {
+  margin: 0;
+  margin-top: 1rem;
 }
 @media (max-width: 990px) {
   .side-bar {

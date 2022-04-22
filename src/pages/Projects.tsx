@@ -3,9 +3,9 @@ import Card from "../components/Card";
 import { Project } from "../types/typeProject";
 
 const Projects = (): JSX.Element => {
+  const [filter, setFilter] = useState<string>("");
   const [projects, setProjects] = useState<Project[]>([]);
   const [filtereds, setFiltereds] = useState<Project[]>([]);
-  const [filter, setFilter] = useState<string>("");
   const [charging, setCharging] = useState<boolean>(true);
 
   useEffect(() => {
@@ -15,9 +15,6 @@ const Projects = (): JSX.Element => {
         const response = await fetch(url);
         const result = await response.json();
         setProjects(result);
-        // setTimeout(() => {
-        //   setCharging(false);
-        // }, 2000);
         setCharging(false);
       } catch (error) {
         console.log(error);
