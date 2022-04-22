@@ -6,6 +6,12 @@ const Layout = (): JSX.Element => {
   const location = useLocation();
   const { pathname } = location;
 
+  const handleClick = () => {
+    setTimeout(() => {
+      setModal(false)
+    }, 500);
+  }
+
   return (
     <div id="layout">
       <div
@@ -32,7 +38,7 @@ const Layout = (): JSX.Element => {
           <Link
             to="/"
             className={pathname === "/" ? "nav-link active" : "nav-link"}
-            onClick={() => setModal(false)}
+            onClick={handleClick}
           >
             About Me
           </Link>
@@ -41,21 +47,21 @@ const Layout = (): JSX.Element => {
             className={
               pathname === "/projects" ? "nav-link active" : "nav-link"
             }
-            onClick={() => setModal(false)}
+            onClick={handleClick}
           >
             Projects
           </Link>
           <Link
             to="/skills"
             className={pathname === "/skills" ? "nav-link active" : "nav-link"}
-            onClick={() => setModal(false)}
+            onClick={handleClick}
           >
             Skills
           </Link>
           <Link
             to="/contact"
             className={pathname === "/contact" ? "nav-link active" : "nav-link"}
-            onClick={() => setModal(false)}
+            onClick={handleClick}
           >
             Contact
           </Link>

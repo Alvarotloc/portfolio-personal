@@ -5,7 +5,7 @@ const AboutMe = ():JSX.Element => {
         <section id="info-general">
             <h1>Álvaro Suárez</h1>
             <p>Hi! I`m Alvaro and I`m a junior full stack developer, specialized in front-end, more specifically in <span>ReactJS</span> and  <span>NextJS</span>. I am in constant search of learning and personal improvement to know my best version.</p>
-            <a href="#">Curriculum Vitae</a>
+            <a href="https://drive.google.com/file/d/1AZ5KHMQ_fhwyndNmXHV-It-QsLX8Jl-i/view?usp=sharing" target='_blank'>Curriculum Vitae</a>
         </section>
         <img src={image} alt='Image Profile' className="profile" />
     </div>

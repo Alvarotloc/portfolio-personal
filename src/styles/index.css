@@ -145,6 +145,7 @@ h1 {
 }
 #info-general p span {
   position: relative;
+  z-index: -1;
 }
 #info-general p span::after {
   content: "";
@@ -235,6 +236,7 @@ input[type="submit"] {
   width: 31rem;
   border-radius: 1rem;
   background-color: white;
+  z-index: -1;
 }
 .card-content {
   padding: 2rem 1rem 3rem 2rem;
@@ -289,6 +291,7 @@ input[type="submit"] {
   align-items:center;
   width: 30rem;
   min-height: 37rem;
+  z-index: -1;
 }
 .skill-content{
   text-align: center;
