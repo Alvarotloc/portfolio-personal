@@ -11,7 +11,7 @@ const Projects = (): JSX.Element => {
   useEffect(() => {
     const getProjects = async () => {
       try {
-        const url = `http://localhost:4000/projects`;
+        const url = `${import.meta.env.VITE_API_URL}/projects`;
         const response = await fetch(url);
         const result = await response.json();
         setProjects(result);

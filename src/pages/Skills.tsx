@@ -9,7 +9,7 @@ const Skills = ():JSX.Element => {
   useEffect(() => {
     const getSkills = async () => {
       try {
-        const url = `http://localhost:4000/skills`;
+        const url = `${import.meta.env.VITE_API_URL}/skills`;
         const response = await fetch(url);
         const result = await response.json();
         setSkills(result);
