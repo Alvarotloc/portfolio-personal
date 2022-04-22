@@ -25,6 +25,7 @@ const Projects = (): JSX.Element => {
 
   useEffect(() => {
     if (filter.trim() === "") {
+      console.log("entro aqui");
       return setFiltereds(projects);
     }
     setFiltereds(projects.filter((project) => filter === project.tech));
