@@ -1,7 +1,6 @@
 {
     "projects" : [
         {
-            "image" : "clients",
             "name" : "Clients Manager",
             "description" : "A project made with react, react-router, tailwindcss and formik for controlling your clients",
             "usedSkills" : ["React","TailwindCss","TypeScript","Vite","HTML","CSS","JSON-Server"],
@@ -11,7 +10,6 @@
             "id" : 1
         },
         {
-            "image" : "vet",
             "name" : "Veterinary React",
             "description" : "A project made with react and tailwindcss for a veterinary practice. It is made entirely with TypeScript. Deployed in Netlify.",
             "usedSkills" : ["React","TailwindCss","TypeScript","Vite","HTML","CSS"],
@@ -21,7 +19,6 @@
             "id" : 2
         },
         {
-            "image" : "crypto",
             "name" : "Cryptos Currency",
             "description" : "Application to see the price of cryptocurrencies in real time, made with React and styled-components and consumption of an api",
             "usedSkills" : ["React","Styled-Components","HTML","CSS","POO","API"],
@@ -31,7 +28,6 @@
             "id" : 3
         },
         {
-            "image" : "portafolio",
             "name" : "Portfolio",
             "description" : "This portfolio has been built in react, using react-router. It has been built entirely in TypeScript and following best practices",
             "usedSkills" : ["React","HTML","CSS","POO","JSON-Server"],
@@ -41,7 +37,6 @@
             "id" : 4
         },
         {
-            "image" : "garden",
             "name" : "Jardin de Bambu",
             "description" : "A project made for a local restaurant called Jardin de Bambú made entirely with react and typescript",
             "usedSkills" : ["React","TypeScript","Vite","HTML","CSS"],
@@ -51,7 +46,6 @@
             "id" : 5
         },
         {
-            "image" : "rickmorty",
             "name" : "Rick and Morty Guide",
             "description" : "A project made with javascript vanilla and the rick and morty API. Deployed in Heroku.",
             "usedSkills" : ["JavaScript","HTML","CSS","POO","API"],
@@ -61,7 +55,6 @@
             "id" : 6
         },
         {
-            "image" : "gif",
             "name" : "Gif Expert App",
             "description" : "A project based on the search for gifs from the famous Giphy API, made entirely with react and typescript",
             "usedSkills" : ["React","TypeScript","Vite","HTML","CSS","Animate Css"],
@@ -71,7 +64,6 @@
             "id" : 7
         },
         {
-            "image" : "indecision",
             "name" : "Indecision App",
             "description" : "A project made entirely in vue js to ask questions to an api and receive random answers. A fun challenge deployed in Netlify",
             "usedSkills" : ["VueJS","HTML","CSS","POO","API"],
@@ -81,7 +73,6 @@
             "id" : 8
         },
         {
-            "image" : "aldemy",
             "name" : "Aldemy Courses",
             "description" : "A project made for the FreeCodeCamp course on responsive web design, made only in html and css. Deployed in Netlify",
             "usedSkills" : ["HTML","CSS"],
@@ -91,7 +82,6 @@
             "id" : 9
         },
         {
-            "image" : "freelancer",
             "name" : "Alvaro Freelancer",
             "description" : "A small project to offer freelance services, made only with html and css following mobile first and responsive design techniques.",
             "usedSkills" : ["HTML","CSS"],
@@ -101,7 +91,6 @@
             "id" : 10
         },
         {
-            "image" : "bio",
             "name" : "Iker Casillas Bio",
             "description" : "A project made for the FreeCodeCamp course, it consist in a short biography of Iker Casillas made only with HTML and CSS",
             "usedSkills" : ["HTML","CSS"],
@@ -111,7 +100,6 @@
             "id" : 11
         },
         {
-            "image" : "marvel",
             "name" : "Marvel`s Form",
             "description" : "A project made for the FreeCodeCamp course, it consist in a little form about Marvel`s movies and comics, only with html and css",
             "usedSkills" : ["HTML","CSS"],
@@ -123,67 +111,67 @@
     ],
     "skills" : [
         {
-            "image" : "src/imgs/react.webp",
+            "id" : 1,
             "name" : "React",
             "experience" : "As a front-end developer, I have specialized in using React as the main library in my projects. I work it normally based on TypeScript"
         },
         {
-            "image" : "src/imgs/typescript.webp",
+            "id" : 2,
             "name" : "TypeScript",
             "experience" : "To work neatly and cleanly, as well as getting used to working with strongly typed languages, I use TypeScript in most of my projects"
         },
         {
-            "image" : "src/imgs/node.webp",
+            "id" : 3,
             "name" : "Node JS",
             "experience" : "To work on the server side I use node js, a development environment where I can make the most of my JavaScript knowledge"
         },
         {
-            "image" : "src/imgs/express.webp",
+            "id" : 4,
             "name" : "Express JS",
             "experience" : "To accompany my knowledge of Node, I use Express, a framework used to build back-end"
         },
         {
-            "image" : "src/imgs/javascript.webp",
+            "id" : 5,
             "name" : "JavaScript",
             "experience" : "It is the language that I use the most, I started to learn with it and now practically all my projects are with JavaScript"
         },
         {
-            "image" : "src/imgs/tailwind.webp",
+            "id" : 6,
             "name" : "Tailwind Css",
             "experience" : "As a css framework, I use it in many of my projects because of its ease of use and versatility"
         },
         {
-            "image" : "src/imgs/mysql.webp",
+            "id" : 7,
             "name" : "MySQL",
             "experience" : "It is the relational database manager that I use the most and with which I have the most experience"
         },
         {
-            "image" : "src/imgs/mongodb.webp",
+            "id" : 8,
             "name" : "Mongo DB",
             "experience" : "It is the NON-relational database manager that I use the most and with which I have the most experience"
         },
         {
-            "image" : "src/imgs/html.webp",
+            "id" : 9,
             "name" : "HTML5",
             "experience" : "Label language, I master it to perfection and I am an expert in layout with it"
         },
         {
-            "image" : "src/imgs/css.webp",
+            "id" : 10,
             "name" : "CSS3",
             "experience" : "Style language, I master it very well, I have even entered the top 100 designers on the CssBattle page"
         },
         {
-            "image" : "src/imgs/nextjs.webp",
+            "id" : 11,
             "name" : "NextJS",
             "experience" : "A framework based on react and using express behind the scenes, I am currently learning it but having the bases of two technologies that I handle will not take long to learn it"
         },
         {
-            "image" : "src/imgs/vue.webp",
+            "id" : 12,
             "name" : "VueJS",
             "experience" : "A javascript framework that I have some knowledge of but haven't focused on it primarily, like I have with React"
         },
         {
-            "image" : "src/imgs/bootstrap.webp",
+            "id" : 13,
             "name" : "Bootstrap",
             "experience" : "A framework based on css, I am currently learning it but having the bases of two technologies that I handle will not take long to learn it"
         }

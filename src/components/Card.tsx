@@ -26,7 +26,7 @@ const Card = ({
         <Skeleton height={150} width={300} />
       ) : (
         <img
-          src={`src/imgs/${image}.webp`}
+          src={image}
           alt="An image about the project"
           className="img-top-card"
         />
