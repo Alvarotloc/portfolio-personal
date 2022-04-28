@@ -31,6 +31,7 @@ body {
   position: absolute;
   left: 5rem;
   transition: left 0.7s;
+  z-index: 2;
 }
 #nav-bar {
   display: flex;
@@ -39,6 +40,7 @@ body {
   flex-direction: column;
   height: 100%;
   position: relative;
+  z-index: 3;
 }
 .nav-link {
   text-transform: uppercase;
@@ -236,7 +238,6 @@ input[type="submit"] {
   width: 31rem;
   border-radius: 1rem;
   background-color: white;
-  z-index: -1;
 }
 .card-content {
   padding: 2rem 1rem 3rem 2rem;
@@ -291,7 +292,6 @@ input[type="submit"] {
   align-items:center;
   width: 30rem;
   min-height: 37rem;
-  z-index: -1;
 }
 .skill-content{
   text-align: center;

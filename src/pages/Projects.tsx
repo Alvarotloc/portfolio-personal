@@ -13,6 +13,7 @@ import aldemy from '../imgs/aldemy.webp'
 import freelancer from '../imgs/freelancer.webp'
 import bio from '../imgs/bio.webp'
 import marvel from '../imgs/marvel.webp'
+import guitarla from '../imgs/guitarla.webp';
 
 const Projects = (): JSX.Element => {
   const [filter, setFilter] = useState<string>("");
@@ -45,7 +46,7 @@ const Projects = (): JSX.Element => {
   }, [filter]);
 
 
-  const images = [clients,vet,crypto,portafolio,garden,rickmorty,gif,indecision,aldemy,freelancer,bio,marvel];
+  const images = [clients,vet,crypto,portafolio,garden,rickmorty,gif,indecision,aldemy,freelancer,bio,marvel,guitarla];
 
 
 
@@ -71,6 +72,7 @@ const Projects = (): JSX.Element => {
             <option value="">-- All Projects --</option>
             <option value="react">React</option>
             <option value="tailwindcss">React + Tailwind</option>
+            <option value="next">NextJS</option>
             <option value="basic">HTML and Css</option>
             <option value="vue">Vue Js</option>
             <option value="vanilla">Vanilla JS</option>

@@ -2,12 +2,21 @@
     "projects" : [
         {
             "name" : "Clients Manager",
+            "description" : "A project made with NextJS as front-end technology and Strapi as a back-end technology, about an E-Commerce selling guitars. Made with typescript",
+            "usedSkills" : ["NextJs","React","TypeScript","Strapi","HTML","CSS","Cloudinary"],
+            "repo" : "https://github.com/Alvarotloc/GuitarLA-nextjs",
+            "url" : "https://guitarla-nextjs.vercel.app/",
+            "tech" : "next",
+            "id" : 1
+        },
+        {
+            "name" : "Clients Manager",
             "description" : "A project made with react, react-router, tailwindcss and formik for controlling your clients",
             "usedSkills" : ["React","TailwindCss","TypeScript","Vite","HTML","CSS","JSON-Server"],
             "repo" : "https://github.com/Alvarotloc/clients-manager",
             "url" : "https://clients-manager-crm.netlify.app/",
             "tech" : "tailwindcss",
-            "id" : 1
+            "id" : 2
         },
         {
             "name" : "Veterinary React",
@@ -16,7 +25,7 @@
             "repo" : "https://github.com/Alvarotloc/Veterinaria_React",
             "url" : "https://veterinaria-react-tailwind.netlify.app/",
             "tech" : "tailwindcss",
-            "id" : 2
+            "id" : 3
         },
         {
             "name" : "Cryptos Currency",
@@ -25,7 +34,7 @@
             "repo" : "https://github.com/Alvarotloc/Cotizador-Criptomonedas",
             "url" : "https://cryptos-currency.netlify.app/",
             "tech" : "react",
-            "id" : 3
+            "id" : 4
         },
         {
             "name" : "Portfolio",
@@ -34,7 +43,7 @@
             "repo" : "https://github.com/Alvarotloc/portfolio-personal",
             "url" : "/",
             "tech" : "react",
-            "id" : 4
+            "id" : 5
         },
         {
             "name" : "Jardin de Bambu",
@@ -43,7 +52,7 @@
             "repo" : "https://github.com/Alvarotloc/jardin-de-bambu",
             "url" : "https://garden-of-bambu.netlify.app/",
             "tech" : "react",
-            "id" : 5
+            "id" : 6
         },
         {
             "name" : "Rick and Morty Guide",
@@ -52,7 +61,7 @@
             "repo" : "https://github.com/Alvarotloc/rick-and-morty-vanilla",
             "url" : "https://api-rick-and-mort.herokuapp.com/",
             "tech" : "vanilla",
-            "id" : 6
+            "id" : 7
         },
         {
             "name" : "Gif Expert App",
@@ -61,7 +70,7 @@
             "repo" : "https://github.com/Alvarotloc/gif-expert-app-react ",
             "url" : "https://what-gif-u-want.netlify.app/",
             "tech" : "react",
-            "id" : 7
+            "id" : 8
         },
         {
             "name" : "Indecision App",
@@ -70,7 +79,7 @@
             "repo" : "https://github.com/Alvarotloc/Indecision-vue",
             "url" : "https://indecision-ask-vue.netlify.app/",
             "tech" : "vue",
-            "id" : 8
+            "id" : 9
         },
         {
             "name" : "Aldemy Courses",
@@ -79,7 +88,7 @@
             "repo" : "https://github.com/Alvarotloc/Aldemy-Landing-Page",
             "url" : "https://sell-courses-aldemy.netlify.app/",
             "tech" : "basic",
-            "id" : 9
+            "id" : 10
         },
         {
             "name" : "Alvaro Freelancer",
@@ -88,7 +97,7 @@
             "repo" : "https://github.com/Alvarotloc/freelancer-alvaro",
             "url" : "https://freelancer-alvaro.netlify.app/",
             "tech" : "basic",
-            "id" : 10
+            "id" : 11
         },
         {
             "name" : "Iker Casillas Bio",
@@ -97,7 +106,7 @@
             "repo" : "https://github.com/Alvarotloc/Bio-Iker-Casillas",
             "url" : "https://casillas-biography.netlify.app/",
             "tech" : "basic",
-            "id" : 11
+            "id" : 12
         },
         {
             "name" : "Marvel`s Form",
@@ -106,7 +115,7 @@
             "repo" : "https://github.com/Alvarotloc/Marvel-form",
             "url" : "https://marvels-fan-form.netlify.app/",
             "tech" : "basic",
-            "id" : 12
+            "id" : 13
         }
     ],
     "skills" : [
