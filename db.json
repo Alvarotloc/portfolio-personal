@@ -1,7 +1,7 @@
 {
     "projects" : [
         {
-            "name" : "Clients Manager",
+            "name" : "GuitarLA Store",
             "description" : "A project made with NextJS as front-end technology and Strapi as a back-end technology, about an E-Commerce selling guitars. Made with typescript",
             "usedSkills" : ["NextJs","React","TypeScript","Strapi","HTML","CSS","Cloudinary"],
             "repo" : "https://github.com/Alvarotloc/GuitarLA-nextjs",
